@@ -1,0 +1,372 @@
+.bg-container {
+  background-color: #9ba9eb;
+  min-height: 100vh;
+  width: 100vw;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .bg-container {
+    padding: 60px;
+  }
+}
+
+.logo {
+  height: 80px;
+  width: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    height: 85px;
+    width: 225px;
+  }
+}
+
+.password-input-container {
+  background-color: #5763a5;
+  min-height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .password-input-container {
+    flex-direction: row;
+    padding: 25px;
+    justify-content: space-around;
+  }
+}
+
+.password-text-input-card {
+  display: flex;
+  flex-direction: column;
+
+  min-height: 75px;
+  width: 300px;
+  padding: 15px;
+  background-color: #454f84;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .password-text-input-card {
+    padding: 20px;
+    width: 500px;
+  }
+}
+
+.heading {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 31px;
+  }
+}
+
+.web-logo {
+  display: flex;
+  height: 50px;
+  background-color: #ffffff;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.website-logo {
+  height: 35px;
+  padding-top: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.web-text {
+  height: 100%;
+  width: 100%;
+  border-style: none;
+  border-left-style: solid;
+  border-left-width: 2px;
+  border-left-color: #94a3b8;
+  outline: none;
+  padding: 10px;
+  background-color: transparent;
+  color: #94a3b8;
+  font-family: Roboto;
+  font-size: 16px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-btn {
+  background-color: #0b69ff;
+  border-radius: 5px;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 35px;
+  width: 90px;
+  align-self: flex-end;
+  padding: 5px;
+}
+
+.password-image-sm {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  .password-image-sm {
+    display: block;
+    height: 300px;
+    width: 260px;
+    margin-bottom: 25px;
+  }
+}
+
+.password-image-lg {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .password-image-lg {
+    height: 600px;
+    width: 700px;
+    display: block;
+  }
+}
+
+.password-info-container {
+  background-color: #5763a5;
+  min-height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .password-info-container {
+    padding: 25px;
+  }
+}
+
+.password-search-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.your-password {
+  display: flex;
+  align-items: center;
+}
+
+.passwd-heading {
+  color: #ffffff;
+  font-size: 15px;
+  font-family: Roboto;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .passwd-heading {
+    font-size: 28px;
+  }
+}
+.count {
+  border-radius: 15px;
+  border: 1px solid #b6c3ca;
+  margin-left: 10px;
+  width: 35px;
+  height: 28px;
+  padding-left: 10px;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.search-logo {
+  display: flex;
+  height: 35px;
+  background-color: #ffffff;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.search-icon {
+  height: 28px;
+  padding-top: 2px;
+  margin-right: 15px;
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 576px) {
+  .search-logo {
+    width: 145px;
+  }
+}
+
+.seperator {
+  border: 2px soild #c3caea;
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.show-password {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 0px;
+}
+
+.check {
+  margin-right: 8px;
+  height: 50px;
+}
+
+.text {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.empty-password-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-pwd-image {
+  height: 300px;
+}
+
+@media screen and (max-width: 576px) {
+  .no-pwd-image {
+    height: 210px;
+  }
+}
+
+.no-password {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.passwords-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+@media screen and (max-width: 576px) {
+  .passwords-list-container {
+    flex-direction: column;
+  }
+}
+
+.card-container {
+  display: flex;
+}
+.initial {
+  color: #ffffff;
+  border-radius: 100%;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 25px;
+  align-self: center;
+  width: 55px;
+  background-color: #ff0b0b;
+  height: 55px;
+  padding-left: 1px;
+  padding-bottom: 10px;
+  padding-top: 11px;
+  padding-bottom: 15px;
+}
+
+.password-card {
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid #b6c3ca;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  min-width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .password-card {
+    padding-bottom: 20px;
+    min-width: 250px;
+    height: 105px;
+  }
+}
+
+.details-list {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.web-site {
+  color: #f8fafc;
+  font-family: Roboto;
+  font-size: 19px;
+  margin-bottom: 0px;
+}
+.name {
+  color: #f8fafc;
+  font-family: Roboto;
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+
+.password {
+  color: #f8fafc;
+  font-family: Roboto;
+  font-size: 14px;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #94a3b8;
+}
+
+.delete-icon {
+  height: 35px;
+  margin-left: 55px;
+}
+
+.stars-image {
+  height: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
